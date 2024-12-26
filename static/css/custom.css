@@ -1,0 +1,177 @@
+:root {
+    /* Светлая тема */
+    --bg-light: #ffffff;
+    --text-light: #102D69;
+    --accent-light: #102D69;
+    --secondary-light: #102D69;
+
+    /* Темная тема */
+    --bg-dark: #000000;
+    --text-dark: #ffffff;
+    --accent-dark: #102D69;
+    --secondary-dark: #102D69;
+}
+
+body {
+    transition: all 0.3s ease;
+}
+
+body.light {
+    background-color: var(--bg-light);
+    color: var(--text-light);
+}
+
+body.dark {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+}
+
+/* Навигация */
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--text-dark);
+}
+
+.light .navbar-nav .nav-link {
+    color: var(--text-light);
+}
+
+/* Кнопки */
+.btn-primary {
+    background-color: var(--accent-light);
+    color: var(--bg-light);
+    border: none;
+}
+
+.dark .btn-primary {
+    background-color: var(--accent-dark);
+    color: var(--text-dark);
+}
+
+/* Секции */
+.promo,
+.footer,
+.projects {
+    background-color: var(--secondary-light);
+    color: var(--bg-light);
+}
+
+.dark .promo,
+.dark .footer,
+.dark .projects {
+    background-color: var(--secondary-dark);
+    color: var(--text-dark);
+}
+
+/* Переключатели темы и языка */
+.theme-toggle,
+.language-toggle {
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid currentColor;
+}
+
+.dark .theme-toggle,
+.dark .language-toggle {
+    color: var(--text-dark);
+    background-color: var(--bg-dark);
+}
+
+.light .theme-toggle,
+.light .language-toggle {
+    color: var(--bg-light);
+    background-color: var(--secondary-light);
+}
+
+/* Ссылки в синих секциях */
+.promo a,
+.footer a,
+.projects a {
+    color: var(--bg-light);
+}
+
+.dark .promo a,
+.dark .footer a,
+.dark .projects a {
+    color: var(--text-dark);
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .theme-language-toggle {
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Стили для логотипов в секции опыта */
+.work-experience {
+    margin-bottom: 40px;
+}
+
+.work-experience img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+/* Для темной темы используем другой логотип */
+.dark .work-experience img[src*="for_light"] {
+    content: url('../img/01_Logo_HSE_full_rus_PANTONE_for_dark.png');
+}
+
+/* Контейнер для информации о работе */
+.work-experience .position {
+    margin-left: 75px;  /* отступ равен ширине логотипа + margin-right */
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .work-experience img {
+        height: 40px;
+    }
+
+    .work-experience .position {
+        margin-left: 55px;
+    }
+}
+
+/* Увеличенный шрифт для секции "Обо мне" */
+.story p {
+    font-size: 1.25rem;  /* увеличиваем размер шрифта */
+    line-height: 1.6;    /* увеличиваем межстрочный интервал для лучшей читаемости */
+}
+
+/* Увеличенный шрифт для секции "Intro" */
+.promo-text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+/* Увеличенный шрифт для приветствия */
+.greeting-text {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Стили для уведомления о смене темы */
+.theme-prompt {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1050;
+    max-width: 400px;
+}
+
+.theme-prompt .alert {
+    margin: 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.theme-prompt .btn-dark {
+    padding: 0.25rem 1rem;
+}

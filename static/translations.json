@@ -1,0 +1,112 @@
+{
+    "ru": {
+        "title": "Резюме",
+        "position": "Докер девелопер",
+        "name": "Мария Филиппович",
+        "switch_language": "Switch to English",
+        "nav_items": [
+            {"id": "about", "text": "Обо мне"},
+            {"id": "experience", "text": "Опыт работы"},
+            {"id": "contact", "text": "Контакты"}
+        ],
+        "greeting": "Привет! Меня зовут Маша.",
+        "intro": "Я учусь на 2-ом курсе ОП Экономика и анализа данных НИУ ВШЭ. Люблю котиков и эстетик латте карамель из Джефриса, мечтаю о 8-часовом качественном сне",
+        "about_title": "Обо мне",
+        "about_text": "Стараюсь делать что-то прикольное на Python и учиться. Исправляю ошибки докера после закрытия приложения (мучительно часами)",
+        "experience_title": "Опыт работы",
+        "experience": [
+            {
+                "company": "НИУ ВШЭ",
+                "logo": "../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png",
+                "period": "сентябрь 2023 – настоящее время",
+                "position": "Студентка",
+                "description": "Отчаянно пытаюсь ходить на все лекции, митапы с друзьями в Джефрисе, иногда РЕАЛЬНО учусь"
+            },
+            {
+                "company": "AlmostNotion (проект питон)",
+                "logo": "../static/photo_2024-12-26_20-18-59.jpg",
+                "period": "октябрь 2024 – декабрь 2024",
+                "position": "Backend разработчик",
+                "description": "FastAPI и MinIO/S3 девелопер, немного фронтенд девелопер (исправляла ссылки на страницы)"
+            }
+        ],
+        "contact_title": "Контакты",
+        "contact_text": "Отправлять мемы:",
+        "contact_me": "Написать мне",
+        "contacts": [
+            {
+                "url": "https://t.me/siehfis",
+                "text": "Telegram"
+            },
+            {
+                "url": "mailto:6947287@gmail.com",
+                "text": "Email"
+            },
+            {
+                "url": "https://github.com/siehfis",
+                "text": "GitHub"
+            }
+        ],
+        "footer": "Сделано с душой в 2024 году",
+        "github": "https://github.com/siehfis",
+        "goals_title": "Мои цели",
+        "goals": [
+            "Хорошо написать экзамен твимс. Объесться на новогодних дома. Выспаться (по возможности). Поменьше нервничать, побольше кайфовать"
+        ]
+    },
+    "en": {
+        "title": "Resume",
+        "position": "Docker developer",
+        "name": "Maria Filippovich",
+        "switch_language": "Переключить на русский",
+        "nav_items": [
+            {"id": "about", "text": "About"},
+            {"id": "experience", "text": "Experience"},
+            {"id": "contact", "text": "Contact"}
+        ],
+        "greeting": "Hi! My name is Masha.",
+        "intro": "I am a 2nd year student in the Economics and Data Analysis program at the National Research University Higher School of Economics. I love cats and the aesthetics of Jeffries caramel latte, I dream of an 8-hour quality day",
+        "about_title": "About Me",
+        "about_text": "I try to do something cool in Python and learn. Fixing docker errors after closing the application (painfully for hours)",
+        "experience_title": "Work Experience",
+        "experience": [
+            {
+                "company": "HSE",
+                "logo": "../static/01_Logo_HSE_full_rus_PANTONE_for_dark_2.png",
+                "period": "September 2023 – present",
+                "position": "Student",
+                "description": "I try to go to all lectures, meetups with friends in Jeffries, sometimes really learn"
+            },
+            {
+                "company": "AlmostNotion (Python project)",
+                "logo": "../static/photo_2024-12-26_20-18-59.jpg",
+                "period": "October 2024 – December 2024",
+                "position": "Backend developer",
+                "description": "FastAPI and MinIO/S3 developer, a little frontend developer (fixed links to pages)"
+            }
+        ],
+        "contact_title": "Contact",
+        "contact_text": "Send memes:",
+        "contact_me": "Contact me",
+        "contacts": [
+            {
+                "url": "https://t.me/siehfis",
+                "text": "Telegram"
+            },
+            {
+                "url": "mailto:6947287@gmail.com",
+                "text": "Email"
+            },
+            {
+                "url": "https://github.com/siehfis",
+                "text": "GitHub"
+            }
+        ],
+        "footer": "Made with love in 2024",
+        "github": "https://github.com/siehfis",
+        "goals_title": "My Goals",
+        "goals": [
+            "Good writing probability theory exam. Overeat at New Year's at home. Get enough sleep during (if possible). Less nervous, more fun"
+        ]
+    }
+}
