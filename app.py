@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify, make_response
 import json
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 
 with open('static/translations.json', 'r', encoding='utf-8') as f:
     translations = json.load(f)
